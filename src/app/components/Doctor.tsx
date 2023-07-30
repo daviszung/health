@@ -16,7 +16,7 @@ export function Doctor() {
 				</div>
 			</div>
 			<div className="row-span-2 my-8 flex flex-col justify-evenly 2xl:whitespace-nowrap">
-				<p className="text-blue-600 text-8xl font-bold ">
+				<p className="text-blue-500 text-8xl font-bold ">
 					One Step Solution
 				</p>
 				<span className="text-black text-8xl font-bold ">
@@ -28,18 +28,22 @@ export function Doctor() {
 				<p>Using your BMI index we calculate whether the</p>
 				<p>dish is suitable for you.</p>
 			</div>
-			<div className="flex 2xl:w-auto w-4/5 justify-between items-center px-12 h-28 -translate-y-6 bg-neutral-100 rounded-3xl shadow-[2px_6px_4px_0px_rgba(144,139,139,0.40)]">
+			<div className="flex 2xl:w-auto w-4/5 justify-between items-center px-6 h-28 -translate-y-6 bg-neutral-100 rounded-3xl shadow-[2px_6px_4px_0px_rgba(144,139,139,0.40)]">
 				<input
 					type="text"
 					placeholder="Search your product"
-					className="bg-transparent text-neutral-600 text-opacity-80 h-4/5 outline-none text-3xl font-medium"
+					className="bg-transparent text-neutral-600 text-opacity-80 h-4/5 pl-6 outline-none text-3xl font-medium"
 				></input>
-				<div>
+				<div className="flex gap-5">
 					<div className="w-20 h-20 bg-gradient-blue-violet rounded-full relative items-center flex justify-center">
-            <Image src="/icon1.svg" alt="icon1" height={44} width={44} className=""></Image>
+            <Image src="/landscape.svg" alt="landscape icon" height={44} width={44} className=""></Image>
           </div>
-					<div></div>
-					<div></div>
+					<div className="w-20 h-20 bg-gradient-blue-violet rounded-full relative items-center flex justify-center">
+            <Image src="/microphone.svg" alt="microphone icon" height={44} width={44} className=""></Image>
+          </div>
+					<div className="w-20 h-20 bg-gradient-blue-violet rounded-full relative items-center flex justify-center">
+            <Image src="/magnifying-glass.svg" alt="magnifying glass icon" height={44} width={44} className=""></Image>
+          </div>
 				</div>
 			</div>
 			<section className="hidden 2xl:scale-100 2xl:block h-full col-start-2 row-span-full relative">
