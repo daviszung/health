@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export function Header() {
 	return (
-		<header className="px-32 w-full flex justify-between items-center pt-20">
+		<header className="lg:px-32 scale-75 lg:scale-100 w-full flex justify-between items-center pt-20">
 			<section className="flex items-center justify-between gap-8 h-full">
 				<div className="w-20 h-16 relative">
 					<Image src="/logo.png" fill={true} alt="Logo" />
 				</div>
 				<div className="relative h-16 font-black bg-gradient-blue-violet text-transparent bg-clip-text">
-					<h2 className="text-5xl inline-block leading-[1.3]">
+					<h2 className="text-5xl leading-[1.3]">
 						HealthyMe
 					</h2>
 					<div className="w-8 h-8 -right-6 -top-2 absolute bg-gradient-to-r from-blue-500 to-violet-600 rounded-full shadow-inner">
@@ -18,7 +18,7 @@ export function Header() {
 				</div>
 			</section>
 
-			<nav className="flex h-full gap-9 transition duration-300 ease-in-out">
+			<nav className="xl:flex h-full gap-9 transition duration-300 ease-in-out hidden">
 				<div className="justify-start items-center gap-12 flex min-h-full cursor-pointer">
 					<div className="group inline">
 						<div className="h-full group-hover:relative text-neutral-700 text-2xl hover:font-bold font-medium">

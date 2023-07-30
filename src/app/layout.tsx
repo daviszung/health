@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="h-full overflow-auto m-0 p-0">
+    <html lang="en" className="w-full h-full">
       <body className="h-full">{children}</body>
     </html>
   )
