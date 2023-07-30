@@ -17,11 +17,12 @@ export function Features(){
 				FEATURES WE PROVIDE
 			</h3>
 			<div className=" col-span-2 row-span-2 row-start-2 col-start-1 text-black font-bold  text-7xl">
-				Calculating BMI <br/>is easier
+				Calculating BMI <br />
+				is easier
 			</div>
-            <div className="col-span-2 row-span-1 row-start-4 font-bold text-3xl text-zinc-500">
-                We calculate your BMI index from data like age, height, weight.
-            </div>
+			<div className="col-span-2 row-span-1 row-start-4 font-bold text-3xl text-zinc-500">
+				We calculate your BMI index from data like age, height, weight.
+			</div>
 		</section>
   );
 };
