@@ -13,13 +13,22 @@ import { Feature } from "./Feature";
 
 export function Features() {
 	return (
-		<section className="pl-32 grid gap-2 2xl:grid-cols-5 grid-rows-5 h-[26rem]">
+		<section className="pl-32 grid gap-2 grid-cols-2 2xl:grid-cols-5 grid-rows-5 h-[26rem]">
 			<h3 className=" col-span-2 bg-gradient-blue-violet text-[2.125rem] font-black tracking-[.48rem] bg-clip-text text-transparent">
 				FEATURES WE PROVIDE
 			</h3>
-			<div className=" col-span-2 row-span-2 row-start-2 col-start-1 text-black font-bold  text-7xl">
-				Calculating BMI <br />
-				is easier
+			<div className="col-span-2 row-span-2 row-start-2 col-start-1 text-black font-bold  text-7xl">
+				<p>
+					Calculating BMI <br /> is easier
+				</p>
+				<div className=" translate-x-72 -translate-y-12">
+					<Image
+						src="/blueheart.png"
+						height={57}
+						width={52}
+						alt="blue heart image"
+					></Image>
+				</div>
 			</div>
 			<div className="col-span-2 row-span-1 row-start-4 font-bold text-3xl text-zinc-500">
 				We calculate your BMI index <br /> from data like age, height,
